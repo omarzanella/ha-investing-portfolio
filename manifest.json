@@ -1,0 +1,19 @@
+{
+  "domain": "investing_portfolio",
+  "name": "Investing Portfolio",
+  "version": "0.1.0",
+  "documentation": "https://github.com/omarzanella/ha-investing-portfolio",
+  "issue_tracker": "https://github.com/omarzanella/ha-investing-portfolio/issues",
+  "codeowners": [
+    "@omarzanella"
+  ],
+  "requirements": [
+    "httpx>=0.28.1",
+    "beautifulsoup4>=4.13.0"
+  ],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "loggers": [
+    "custom_components.investing_portfolio"
+  ]
+}
